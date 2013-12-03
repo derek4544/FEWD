@@ -1,0 +1,47 @@
+/*h1{
+	border: 1px solid black;
+}*/
+
+body>header>h1>a{
+	font-size:50px;
+	color: #FF0000;
+ 	text-decoration: none;
+}
+body>header>h2{
+	font-size:30px;
+	color: #000;
+}
+
+body>article>h2>a{
+	font-size:40px;
+	color: #000;
+	text-decoration: none;
+}
+
+body>header>nav>a{
+	font-size:30px;
+	color: #C0C0C0;
+	padding:10px;
+}
+
+h3{
+	font-size:30px;
+ 	color: #C0C0C0;
+}
+
+h4>a{
+	font-size:20px;
+	font-family:;
+	color: #FF0000;
+	text-decoration: none;
+	text-align:right;
+	margin-left:800px;
+}
+
+p{
+	font-size:20px;
+	width:800px;
+}
+
+
+
