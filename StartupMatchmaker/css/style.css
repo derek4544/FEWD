@@ -1,0 +1,188 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+#page-header {
+       background-color:black;
+       margin: 0;
+}
+
+h1   {
+     color: yellow;
+     font-family:Source Sans Pro;
+}
+h2   {
+     color: black;
+     font-family:Source Sans Pro;
+     font-size:20px;
+     font-style:italic;
+}
+
+nav {
+     padding-left:200px;
+}
+a {
+     font-weight: bold;
+     font-size:20px;
+     font-family:Merriweather;
+     color: white;
+     text-decoration:none; 
+     padding:10px;
+}
+
+
+#top {
+     background-color:gray;
+     text-align:center;
+     border-top:3px solid yellow;
+}
+
+#mid {
+     background: url("../images/coworking.jpg");
+     height:450px;
+}
+
+#rightbox1   {
+     height:400px;
+     width:270px;
+     float:right;
+     padding:5px;
+     font-size:20px;
+     margin-top:10px;
+     margin-right:10px;
+     border:1px solid black;
+     background: rgba(255, 255, 255, .5);
+}
+
+#leftbox2   {
+     height:300px;
+     width:33.333%;
+     background-color:white;
+     float:left;
+     padding:5px;
+     font-size:20px;
+     border:1px solid black;
+}
+
+#midbox2   {
+     height:300px;
+     width:33.333%;
+     background-color:white;
+     float:left;
+     padding:5px;
+     font-size:20px;
+     border:1px solid black;
+}
+
+#rightbox2   {
+     height:300px;
+     width:33.333%;
+     background-color:white;
+     float:left;
+     padding:5px;
+     font-size:20px;
+     border:1px solid black;
+}
+
+
+footer    {
+     background-color:black;
+     color:white;
+     font-size:20px;
+}
+
+.yellow   {
+     background-color:yellow;
+}
+
+.gray   {
+     background-color:gray;
+}
+
+.button   {
+     height:60px;
+     width:180px;
+     text-align:center;
+     font-size:15px;
+     padding-top:1px;
+     border-radius: 5px;
+     margin-left: 20px;
+}
+
+.strike {
+     text-decoration: line-through;
+     opacity:0.4;
+}
+
+.underline {
+  /*   text-decoration: underline; */
+     border-bottom:2px solid yellow;
+}
+
+
